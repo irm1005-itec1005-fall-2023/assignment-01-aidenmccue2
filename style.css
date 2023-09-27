@@ -24,6 +24,9 @@
         float: left;
         padding-top: 15px;
       }
+      img{
+        border-radius: 50px;
+      }
       li {
         display: inline-block;
         margin-right: 10px; /* add spacing between items */
