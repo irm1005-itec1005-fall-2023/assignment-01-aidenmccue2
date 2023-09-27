@@ -1,0 +1,31 @@
+
+      /*
+        These styles set the font, font-size, and add a
+        little bit of space between lines
+      */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        background-color: #36454f;
+      }
+      header {
+        background-color: darkgray;
+        border-radius: 25px;
+      }
+      .LogoText {
+        color: gray;
+        padding-left: 60px;
+        padding-bottom: 60px;
+      }
+      .LogoImg {
+        color: gray;
+        float: left;
+      }
+      li {
+        display: inline-block;
+        margin-right: 10px; /* add spacing between items */
+      }
+      nav {
+        float: right
+      }
