@@ -15,12 +15,14 @@
       }
       .LogoText {
         color: gray;
+        padding-top: 1px;
         padding-left: 60px;
         padding-bottom: 60px;
       }
       .LogoImg {
         color: gray;
         float: left;
+        padding-top: 15px;
       }
       li {
         display: inline-block;
