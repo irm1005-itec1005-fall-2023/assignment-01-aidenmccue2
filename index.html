@@ -27,15 +27,27 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2rem;
         line-height: 1.6;
+        background-color: #36454f;
       }
-      /*
-        These styles make sure that any super wide images
-        don't overflow the page width
-      */
-      img {
-        width: 100%;
-        display: block;
-        margin: 0 auto;
+      header {
+        background-color: darkgray;
+        border-radius: 25px;
+      }
+      .LogoText {
+        color: gray;
+        padding-left: 60px;
+        padding-bottom: 60px;
+      }
+      .LogoImg {
+        color: gray;
+        float: left;
+      }
+      li {
+        display: inline-block;
+        margin-right: 10px; /* add spacing between items */
+      }
+      nav {
+        float: right
       }
     </style>
   </head>
@@ -48,12 +60,33 @@
         * B
 
     -->
-
-    <section>
-      <header>
+    <header>
+      <section>
+        <nav>
+          <h3>Site navigation</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </nav>
+        <div class="LogoImg">
+          <img src="./images/recordplayerlogo.png" height="50" alt="Album-Cover" />
+          </div>
+        <div class="LogoText">
         <h2>The Needle Dropped</h2>
-      </header>
-      <h1>Teezo Touchdown - How Do You Sleep At Night? - Review</h1>
+        </div>
+      </section>
+    </header>
+    <section>
+      <h1>Who is Teezo?</h1>
+      <img src="./images/teezo.jpg" height="300" alt="Album-Cover" />
+      <p>asd</p>
+    </section>
+    <section>
+      <h2>Teezo Touchdown - How Do You Sleep At Night? - Review</h1>
+      <img src="./images/hdysan.png" height="400" alt="Album-Cover" />
+      <p>asd</p>
     </section>
   </body>
 </html>
