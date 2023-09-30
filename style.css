@@ -44,3 +44,9 @@
       .witheader {
         text-align: center;
       }
+      .witimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
