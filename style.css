@@ -50,3 +50,7 @@
         margin-left: auto;
         margin-right: auto;
       }
+      .review {
+        background-color:  	#182828;
+        border-radius: 50px;
+      }
