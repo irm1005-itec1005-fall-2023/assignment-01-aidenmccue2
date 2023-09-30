@@ -36,7 +36,11 @@
       }
       .wit {
         background-color:  	#182828;
+        border-radius: 50px;
       }
       .wittext {
         color: #050808;
+      }
+      .witheader {
+        text-align: center;
       }
