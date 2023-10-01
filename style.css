@@ -27,7 +27,7 @@
       img{
         border-radius: 50px;
       }
-      li {
+      nav li {
         display: inline-block;
         margin-right: 10px; /* add spacing between items */
       }
@@ -66,4 +66,7 @@
       }
       footer {
         background-color: darkgray;
+      }
+      .footerlist {
+        list-style-type: none;
       }
