@@ -55,11 +55,10 @@
         border-radius: 50px;
       }
       .hero {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-      }
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
       .rating {
         background-color:  	#182828;
         border-radius: 50px;
