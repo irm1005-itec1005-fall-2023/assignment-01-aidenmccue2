@@ -29,7 +29,7 @@
       }
       nav li {
         display: inline-block;
-        margin-right: 10px; /* add spacing between items */
+        margin-right: 10px; 
       }
       nav {
         float: right
