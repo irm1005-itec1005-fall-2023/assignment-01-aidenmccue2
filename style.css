@@ -54,3 +54,8 @@
         background-color:  	#182828;
         border-radius: 50px;
       }
+      .hero {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
