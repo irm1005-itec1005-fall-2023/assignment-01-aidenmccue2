@@ -55,9 +55,10 @@
         border-radius: 50px;
       }
       .hero {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
         }
       .rating {
         background-color:  	#182828;
@@ -68,4 +69,9 @@
       }
       .footerlist {
         list-style-type: none;
+      }
+      .form {
+        background-color:  	#182828;
+        border-radius: 50px;
+        text-align: center;
       }
